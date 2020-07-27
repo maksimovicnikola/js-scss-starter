@@ -1,0 +1,9 @@
+//-- Forward all files inside of the folder, so they are available in entire application
+@forward 'reset';
+@forward 'typography';
+
+@use '../abstracts/variables' as abstracts;
+
+h1 {
+    color: abstracts.$body-color;
+}
